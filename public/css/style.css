@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta|Oswald|Permanent+Marker&display=swap');
+
+
+h1, h2, h3, h4, h5, h6, a, .btn {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+p {
+    font-family: 'Mukta', sans-serif;
+}
+
+.writer {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 0.9em;
+}
+
+.welcome {
+    height: 500px;
+    background-image: url("../img/welcome_bg.jpg");
+    background-repeat:no-repeat;
+	background-size:cover;
+    /* background-position: center; */
+}
+
+.navbar {
+    background-color: rgba(58, 58, 58, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active>.nav-link:hover, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.show:hover, .navbar-light .navbar-nav .show>.nav-link:hover, .navbar-light .navbar-brand:hover, .btn-dark:hover {
+    color: #fff700;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-brand {
+    color: white;
+}
+
+.blog_post {
+    border: 3px solid rgb(110, 112, 117);
+    height: 520px;
+}
+
+.blog_img {
+    height:180px;
+
+    border-bottom: 3px solid rgb(110, 112, 117);
+}
+
+.blog_poga:hover {
+    background-color: #c2c4c2;
+}
+
+.blog_poga {
+    width: 130px;
+    border: 1px solid black;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: all 0.5s;
+}
+
+.gray_line {
+    height: 7px;
+    background-color: #c2c4c2;
+}
+
+.testimonials {
+    background-color: #d6d6d6;
+    height: 450px;
+}
+
+
+.testimonials p, .testimonials h5 {
+    color: black;
+}
+
+.carousel_photo {
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: 150px;
+}
+
+.contact {
+    height: 250px;
+    background-color: #2c2e2d;
+    color: white;
+}
+
+.footer_img {
+    height: 80px;
+    width: 80px;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.augsa {
+    margin-top: 100px;
+} 
+
+.gmap {
+    border: 2px solid rgb(110, 112, 117)!important;
+    border-radius: 10px;
+}
+
+
+#email_input, #dropdown {
+    padding: 5px;
+    width: 350px;
+    height: 40px;
+    border: 2px solid rgb(110, 112, 117);
+    border-radius: 10px;
+}
+
+.small_post  {
+    padding: 12px 8px;
+    border: 2px solid rgb(110, 112, 117);
+}
+
+.small_post a:hover, .main_description h3:hover, .blog_post a:hover {
+    color: #e00404;
+}
+
+.small_post a, .blog_post a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s;
+}
+
+#textarea {
+    width: 350px;
+    height: 120px;
+    border: 2px solid rgb(110, 112, 117);
+    border-radius: 10px;
+
+}
+
+.contact_poga {
+    width: 350px;
+}
+
+.author_pic {
+    height: 400px;
+    width: 280px;
+     
+}
+
+.post:hover .post-s {
+    width: 280px;
+}
+
+.post {
+    width: 280px;
+    height: 400px;
+    position: relative;
+    cursor: pointer;
+
+
+}
+
+.post img {
+    display: block;
+}
+
+.post-s {
+    width: 0;
+    height: 400px;
+    background: rgba(162, 163, 162, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.5s;
+
+}
+
+.post-s h5 {
+    color: white;
+    border: 6px solid white;
+    padding: 7px;
+}
+
+.soc_pic:hover {
+    height: 50px;
+    width: 50px;
+
+}
+
+.soc_pic2:hover {
+    height: 60px;
+    width: 60px;
+
+}
+
+.soc_pic {
+    height: 40px;
+    width: 40px;
+    transition: all 0.5s ease;
+}
+
+.soc_pic2 {
+    height: 50px;
+    width: 50px;
+    transition: all 0.5s ease;
+}
+
+.read_poga {
+    width: 200px;
+}
+
+.main_pic {
+    object-fit:cover;
+    height: 500px;
+    width: 1100px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.top_pic {
+    height: 450px;
+    width: 750px;
+}
+
+.main_description {
+    color: white;
+    text-shadow: 4px 4px 6px #000000;
+    position: absolute;
+    z-index: 2;
+    top:400px;
+}
+
+.main_description h3 {
+   
+    transition: all 0.5s ease;
+}
+
+.scroll_Up {
+    display: none;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    font-size: 50px;
+}
+
+.upcoming_data:hover .release_date {
+    display: inline-block;
+    opacity: 1;
+}
+
+.release_date {
+    opacity: 0;
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    color: #e00404!important;
+    transition: all 0.7s ease;
+}
+
+.upcoming_data, .upcoming_data {
+    transition: all 1s ease;
+}
+
+.emailMessage {
+    position: absolute;
+    left: 380px;
+    top: 10px;
+    z-index: 10;
+}
+
+.alert_success {
+    color:green;
+}
+
+.alert_failure {
+    color:red;
+}
+
+
+/* MEDIA QUERY FOR SMALL SCREENS  */
+
+@media screen and (max-width: 600px) {
+
+   .welcome h1 {
+       margin-top:100px;
+       font-size: 30px;
+   }
+   .read_poga {
+    width: 120px;
+    font-size: 12px;
+    margin-bottom: 60px;
+}
+
+.blog_post {
+    margin-top: 10px;
+    height: 600px;
+    
+}
+
+.contact h4 {
+    font-size: 1.1em;
+}
+
+.contact p {
+    font-size: 0.8em;
+}
+
+.main_description {
+    color: white;
+    text-shadow: 4px 4px 6px #000000;
+    position: absolute;
+    z-index: 2;
+    top:180px;
+}
+
+.main_description h3 {
+    font-size: 1.1em;
+}
+
+.main_description p {
+    font-size: 0.8em;
+}
+
+.survey {
+    left: 25px;
+    margin-top: 20px;
+    
+}
+
+
+
+#email_input, #dropdown, #textarea, .contact_poga {
+    width:400px;
+}
+
+
+.testimonials {
+    height: 300px;
+}
+.carousel_photo {
+    margin-left:80px;
+    max-width: 220px;
+    max-height: 200px;
+
+}
+
+
+
+
+
+
+
+}
+
+
+/* MEDIA QUERY FOR MEDIUM  SCREENS  */
+
+@media only screen and (max-width: 768px) {
+
+    .welcome {
+        height: 500px;
+        background-image: url("../img/welcome_bg.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position: center;
+    }
+
+    .main_description {
+     
+        top:440px;
+    }
+    
+    .main_description h3 {
+        font-size: 1.3em;
+    }
+    
+    .main_description p {
+        font-size: 1em;
+    }
+
+    .blog_post {
+        margin-top: 10px;
+        height: 750px;
+        
+    }
+
+    #email_input, #dropdown, #textarea, .contact_poga {
+        width:200px;
+    }
+
+    .gmap {
+        width:250px;
+        height:280px;
+    }
+
+
+    .testimonials {
+        height: 280px;
+    }
+    .carousel_photo {
+        margin-left:80px;
+        max-width: 200px;
+        max-height: 200px;
+    
+    }
+
+    .quote {
+        display: none;
+    }
+
+
+
+}
+
+
+/* MEDIA QUERY FOR EXTRA SMALL SCREENS  */
+
+@media screen and (max-width: 375px) {
+
+    .welcome {
+        background-size:cover;
+        background-position: 60%;
+    }
+
+    .welcome h1 {
+        margin-top:170px;
+        font-size: 25px;
+    }
+
+    .welcome p {
+        font-size: 12px;
+    }
+    
+    .read_poga {
+        margin-bottom: 120px;
+      
+    }
+
+    .contact h4 {
+        font-size: 15px;
+    }
+
+    .contact p {
+        font-size: 10px;
+    }
+
+    .con_btn {
+        font-size: 10px;
+        padding: 4px;
+        margin-bottom: 10px;
+    }
+
+    .main_description {
+   
+        top:190px;
+    }
+    
+    .main_description h3 {
+        font-size: 0.8em;
+    }
+    
+    .main_description p {
+        font-size: 0.5em;
+    }
+
+    .carousel_photo {
+        margin-left: 60px;
+        max-width: 200px;
+        max-height: 200px;
+    
+    }
+
+    .tleft {
+        margin-left: 70px;
+    }
+ }
+ 
+ 
+
